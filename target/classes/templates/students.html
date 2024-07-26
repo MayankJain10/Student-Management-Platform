@@ -18,12 +18,17 @@
     </button>
     <!-- Navbar links -->
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" th:href="@{/students}">Student Management</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" th:href="@{/students}">Teacher Management</a>
+                <a class="nav-link" th:href="@{/teachers}">Teacher Management</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/logout}">Logout</a>
             </li>
         </ul>
     </div>
